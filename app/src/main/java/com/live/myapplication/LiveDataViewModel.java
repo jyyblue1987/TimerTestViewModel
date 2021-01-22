@@ -35,7 +35,7 @@ public class LiveDataViewModel extends ViewModel {
     }
 
     @Override
-    protected void onCleared() {
+    public void onCleared() {
         super.onCleared();
         timer.cancel();
     }
